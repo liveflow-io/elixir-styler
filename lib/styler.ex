@@ -19,14 +19,14 @@ defmodule Styler do
   alias Styler.Zipper
 
   @styles [
-    Styler.Style.ModuleDirectives,
-    Styler.Style.Pipes,
-    Styler.Style.SingleNode,
-    Styler.Style.Defs,
-    Styler.Style.Blocks,
-    Styler.Style.Deprecations,
-    Styler.Style.Configs,
-    Styler.Style.CommentDirectives
+    # Styler.Style.ModuleDirectives,
+    # Styler.Style.Pipes,
+    # Styler.Style.SingleNode,
+    # Styler.Style.Defs,
+    # Styler.Style.Blocks,
+    # Styler.Style.Deprecations,
+    # Styler.Style.Configs,
+    # Styler.Style.CommentDirectives
   ]
 
   @doc false
