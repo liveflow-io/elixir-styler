@@ -19,11 +19,6 @@ defmodule Styler.Style.SingleNode do
   * Credo.Check.Readability.ParenthesesOnZeroArityDefs
   * Credo.Check.Readability.PreferImplicitTry
   * Credo.Check.Readability.StringSigils
-  * Credo.Check.Readability.WithSingleClause
-  * Credo.Check.Refactor.CaseTrivialMatches
-  * Credo.Check.Refactor.CondStatements
-  * Credo.Check.Refactor.RedundantWithClauseResult
-  * Credo.Check.Refactor.WithClauses
   """
 
   @behaviour Styler.Style

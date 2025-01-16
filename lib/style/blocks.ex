@@ -14,10 +14,6 @@ defmodule Styler.Style.Blocks do
 
   Credo Rules addressed:
 
-  * Credo.Check.Consistency.ParameterPatternMatching
-  * Credo.Check.Readability.LargeNumbers
-  * Credo.Check.Readability.ParenthesesOnZeroArityDefs
-  * Credo.Check.Readability.PreferImplicitTry
   * Credo.Check.Readability.WithSingleClause
   * Credo.Check.Refactor.CaseTrivialMatches
   * Credo.Check.Refactor.CondStatements
