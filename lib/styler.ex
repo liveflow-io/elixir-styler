@@ -21,7 +21,7 @@ defmodule Styler do
   @styles [
     # Styler.Style.ModuleDirectives,
     # Styler.Style.Pipes,
-    # Styler.Style.SingleNode,
+    Styler.Style.SingleNode
     # Styler.Style.Defs,
     # Styler.Style.Blocks,
     # Styler.Style.Deprecations,
