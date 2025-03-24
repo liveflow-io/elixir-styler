@@ -19,7 +19,7 @@ defmodule Styler do
   alias Styler.Zipper
 
   @styles [
-    # Styler.Style.ModuleDirectives,
+    Styler.Style.ModuleDirectives,
     # Styler.Style.Pipes,
     Styler.Style.SingleNode,
     Styler.Style.Defs,
