@@ -58,7 +58,8 @@ defmodule Styler.Style.ModuleDirectives do
     if do_meta[:format] == :keyword do
       {:skip, zipper, ctx}
     else
-      moduledoc = moduledoc(name)
+      # We don't want to automatically add a moduledoc
+      moduledoc = nil
       # Move the zipper's focus to the module's body
       body_zipper = zipper |> Zipper.down() |> Zipper.right() |> Zipper.down() |> Zipper.down() |> Zipper.right()
 
